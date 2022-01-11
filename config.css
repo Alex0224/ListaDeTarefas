@@ -1,0 +1,93 @@
+@media only screen and (max-device-width: 900px){
+    body{
+        width: 100%;
+    }
+
+    nav{
+        height: 7vw;
+    }
+
+    h1{
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .inpTasks{
+        width: 40vw;
+        height: 4.5vw;
+        font-size: 2.2vw;
+    }
+
+    .btnTasks{
+        width: 20vw;
+        height: 6vw;
+        font-size: 3vw;
+        letter-spacing: 2px;
+        border-radius: 20px;
+    }
+
+    .tasks{
+        width: 60vw;
+        padding: .5vw 0vw .5vw 2vw;
+    }
+
+    .tasks li{
+        font-size: 2.8vw;
+    }
+
+    .title-number-tasks{
+        font-size: 5vw;
+    }
+
+    .delete{
+        margin-left: 2vw;
+        border-radius: 5px;
+        padding: .6vw;
+        font-size: 2vw;
+        cursor: pointer;
+    }
+        
+}
+
+@media only screen and (max-device-width: 500px){
+    body{
+        width: 100%;
+    }
+
+    .inpTasks{
+        width: 70vw;
+        height: 6.5vw;
+        font-size: 4vw;
+    }
+
+    .btnTasks{
+        width: 20vw;
+        height: 7vw;
+        font-size: 4vw;
+        letter-spacing: 1px;
+        border-radius: 12px;
+    }
+
+    .tasks{
+        width: 80vw;
+        padding: .5vw 0vw .5vw 2vw;
+    }
+
+    .tasks li{
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    .title-number-tasks{
+        font-size: 7vw;
+        margin-bottom: 2vw;
+    }
+
+    .delete{
+        margin-left: 2vw;
+        border-radius: 5px;
+        padding: 1vw;
+        font-size: 3.5vw;
+    }
+        
+}
